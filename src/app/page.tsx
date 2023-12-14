@@ -25,7 +25,7 @@ const Start = () => (
         Contabilidade Digital
       </h1>
 
-      <p className="mt-3 text-3xl">Especializada na Construção Civil</p>
+      <p className="mt-3 text-3xl">Especializada na Construção Civilddd</p>
 
       <p className="mt-6 text-justify text-xl text-neutral-600">
         Ao escolher a Fortes Contabilidade, você tem o atendimento humano e
