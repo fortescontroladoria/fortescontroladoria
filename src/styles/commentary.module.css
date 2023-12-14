@@ -1,0 +1,15 @@
+@tailwind utilities;
+
+/*region --- Pagination*/
+.pagination {
+    @apply flex items-center justify-center gap-2 !bottom-0;
+}
+
+.bullet, .bulletActive {
+    @apply rounded-full bg-accent-foreground/30 block h-3 w-3 cursor-pointer;
+}
+
+.bulletActive {
+    @apply bg-accent-foreground;
+}
+/*endregion*/

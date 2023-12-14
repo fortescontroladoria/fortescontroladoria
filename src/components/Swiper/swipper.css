@@ -1,0 +1,28 @@
+.swiper-wrapper {
+    padding-block: 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    --swiper-navigation-color: black;
+}
+
+
+/*
+!*region --- Pagination*!
+:not(:is(.dark)) .swiper-pagination-bullet {
+    background: black;
+}
+
+:not(:is(.dark)) .swiper-pagination-bullet-active {
+    background: hsl(var(--primary-client));
+}
+
+:is(.dark) .swiper-pagination-bullet {
+    background: white;
+}
+
+:is(.dark) .swiper-pagination-bullet-active {
+    background: hsl(var(--primary-client));
+}
+!*endregion*!*/
