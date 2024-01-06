@@ -40,13 +40,13 @@ const Start = () => (
       </p>
 
       <div className="flex flex-col justify-center gap-2 py-14 sm:flex-row">
-        <Link href={'https://wa.me/5511918994489'}>
+        <Link href={'https://wa.me/5517981638967'}>
           <Button className="w-full px-10 py-8 text-xl text-white">
             Abra sua empresa
           </Button>
         </Link>
 
-        <Link href={'https://wa.me/5511918994489'}>
+        <Link href={'https://wa.me/5517981638967'}>
           <Button className="w-full gap-2 px-10 py-8 text-xl text-white">
             <BsWhatsapp size={30} /> Chamar no Whatsapp
           </Button>
