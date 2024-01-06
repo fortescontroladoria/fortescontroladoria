@@ -25,7 +25,7 @@ const Start = () => (
         Contabilidade Digital
       </h1>
 
-      <p className="mt-3 text-3xl">Especializada na Construção Civilddd</p>
+      <p className="mt-3 text-3xl">Especializada na Construção Civil</p>
 
       <p className="mt-6 text-justify text-xl text-neutral-600">
         Ao escolher a Fortes Contabilidade, você tem o atendimento humano e
@@ -396,84 +396,6 @@ const Commentary = () => {
     </Container>
   )
 }
-
-/* const PublishCards = () => (
-  <Container>
-    <Element name="blog">
-      <FadeInStagger className="my-8">
-        <FadeIn>
-          <h2 className="mb-6 text-center text-3xl font-bold text-neutral-900">
-            Últimas postagens
-          </h2>
-          <h3 className="mb-14 text-center text-xl text-neutral-900">
-            Fique por dentro com nosso blog
-          </h3>
-        </FadeIn>
-
-        <div className=" grid gap-5 md:grid-cols-2 lg:flex">
-          {[
-            {
-              title:
-                'Como ser um afiliado: o que é, tipos de afiliados e muito mais!',
-              description:
-                'Em dúvida sobre como ser um afiliado? Veja aqui estratégias úteis para promover produtos e serviços online, ganhar comissões e…',
-              dateicon: '02/08/2023',
-            },
-            {
-              title:
-                'Venda sem nota fiscal: Entenda por que você não deve fazer isso!',
-              description:
-                'Após solicitar uma proposta, faremos uma reunião online para entender suas necessidades e expectativas!',
-              dateicon: '02/08/2023',
-            },
-            {
-              title: 'Abertura de empresa para Gestor de Tráfego',
-              description:
-                'A nota fiscal é um documento essencial em qualquer transação comercial, seja ela de produtos ou serviços.  A emissão deste…',
-              dateicon: '02/08/2023',
-            },
-          ].map(({ title, description, dateicon }, index) => (
-            <FadeIn
-              key={index}
-              className="relative flex w-full flex-col items-center gap-6 rounded-xl bg-primary p-6 shadow-md ring-1 ring-neutral-950/5"
-            >
-              <p className="text-center text-2xl font-bold text-white">
-                {title}
-              </p>
-              <div className="flex w-full items-center justify-start gap-1 text-sm text-white">
-                <AiOutlineCalendar className="h-6 w-auto" /> {dateicon}
-              </div>
-              <small className="text-lg font-light text-white">
-                {description}
-              </small>
-            </FadeIn>
-          ))}
-        </div>
-      </FadeInStagger>
-    </Element>
-  </Container>
-) */
-
-/* const Form = () => (
-  <div className="mt-12 w-full py-8">
-    <Container>
-      <FadeIn>
-        <div className="flex flex-col-reverse gap-10 lg:flex-row">
-          <div className="flex-1">
-            <FormProfile />
-          </div>
-          <div className="flex-1 text-xl">
-            <strong>Agora é com você!</strong>
-            <p>
-              Entre em contato conosco agora mesmo e solicite uma proposta com
-              um dos nossos especialistas!
-            </p>
-          </div>
-        </div>
-      </FadeIn>
-    </Container>
-  </div>
-) */
 
 export default function Home() {
   return (
